@@ -1,0 +1,70 @@
+.section_Set h1 {
+    font-weight: 400;
+    font-size: 36px;
+    color: #000000;
+    margin-top: 30px;
+  }
+  .section_Set .SetCard{
+    width: 100%;
+    height: auto;
+    background: #ffff;
+    margin-top: 30px;
+  }
+  .section_Set .SetCard img{
+    width: 100%;
+    
+  }
+  .Mycontainer{
+    width: 85%;
+    margin: auto;
+  }
+  
+  .section_Set .SetCard .Mycontainer h4{
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+  }
+  .section_Set .SetCard .Mycontainer p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #A4ACAD;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+ form button{
+    border: none;
+    padding: 5px 42px;
+    background: #F46D40;
+    border-radius: 5px;
+    color: #ffff;
+    margin-bottom: 5px;
+  }
+  .section_Set .SetCard .Mycontainer h3{
+    font-weight: 900;
+    font-size: 20px;
+    color: #000000;
+  }
+  .matin{
+    font-size: 24px;
+    font-weight: 800;
+    color: #A4ACAD;
+    margin-top: 173px;
+    margin-bottom: 10px;
+  
+  }
+  .Text{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #A4ACAD;
+  }
+  .Lilist{
+    list-style: square !important;
+    margin-left: 20px;
+    color: #A4ACAD;
+  }
+  .Lilist a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #A4ACAD;
+  }

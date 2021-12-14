@@ -1,0 +1,607 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none !important;
+  text-decoration: none !important;
+  font-family: "Montserrat", sans-serif;
+}
+.main_b {
+  background: #f2f2f2;
+  padding: 0 !important;
+  overflow: hidden;
+}
+.scroll{
+  overflow: auto;
+  height: 87.5vh;
+
+}
+::-webkit-scrollbar{
+  width:10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #FF9846;
+  border-radius: 5px;
+}
+.left_top {
+  width: 200px;
+  margin: auto;
+  border-bottom: 1px solid #000;
+  padding: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.left_top h2 {
+  font-weight: 300;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 !important;
+  margin-top: 10px !important;
+  text-align: center;
+}
+
+.left_menu {
+  width: 200px;
+  margin: auto;
+}
+.left_menu ul li {
+  margin-top: 30px;
+  /* display:flex;
+    justify-content: start; */
+  text-align: start;
+}
+.left_menu ul li a {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  transition: 300ms;
+}
+.left_menu ul li a:hover {
+  color: #ff9846;
+}
+.active {
+  color: #ff9846;
+}
+.left_menu ul li a img {
+  padding-right: 20px;
+}
+.left_menu ul {
+  padding: 0 !important;
+  width: 100%;
+  margin: auto;
+}
+i {
+  color: rgb(170, 169, 169);
+}
+
+/* ================================================right ====================================*/
+.right_div{
+    width: 100%;
+
+}
+.right_top {
+  width: 300px;
+  height: auto;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #F2F2F2;
+  margin-top: 55px;
+  overflow: hidden;
+}
+.right_top h2 {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  padding: 12px 20px;
+}
+.right_top p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #a4acad;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.right_top button{
+    border: none;
+    font-weight: 400;
+font-size: 14px;
+color: #F2F2F2;
+text-align: center;
+background: #FF9846;
+padding: 12px 9%  ;
+
+}
+.right_map{
+    width: 300px;
+    margin-top: 20px;
+    background: #F2F2F2;
+    border-radius: 5px;
+    position: relative;
+}
+.right_map h2{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 500;
+font-size: 24px;
+color: #000000;
+}
+.right_map p{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #A4ACAD;
+    padding: 10px 0;
+}
+.right_map span{
+    padding:5px 20px;
+    border-radius: 50%;
+    background-color: #ff9846;
+    position: absolute;
+    top: 32%;
+    left: 40%;
+    font-size: 38px;
+}
+.right_map span i{
+    color: white;
+
+}
+:focus{
+    outline: none;
+}
+/* =========== NAV ============================================================================ */
+
+.header_top{
+  display: flex;
+  width: 100%;
+}
+.aClas{
+  display: block;
+}
+.nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+.nash{
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+.colorA{ 
+font-weight: 500;
+font-size: 18px;
+text-align: center;
+color: #FF9846;
+
+}
+a{
+  cursor: pointer;
+}
+.P{
+  font-size: 14px;
+  font-weight: 300;
+text-align: center;
+color: #A4ACAD;
+
+}
+.norderL{
+  border-right:2px solid  #A4ACAD ;
+}
+.norderB{
+  border-bottom:2px solid  #A4ACAD ;
+}
+.gorod{
+  font-size: 14px;
+  text-align: center;
+  color: #A4ACAD;
+     
+}
+.city{
+font-size: 18px;
+text-align: center;
+color: #000000;
+}
+.nav ul li a{
+font-size: 18px;
+text-align: center;
+color: #FF9846;
+padding: 0 10px;
+
+}
+.nav ul li a:active{
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+.active{
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+.fa-search{
+  padding-left: 20px;
+  margin-top: 5px;
+  font-size: 26px;
+}
+/*================================================ nav media=========================================== */
+@media (max-width:1440px){
+  .colorA {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #FF9846;
+}
+}
+@media (max-width:1199px) {
+  .colorA {
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    color: #FF9846;
+  }
+.P {
+  font-size: 13px;
+  font-weight: 300;
+  color: #A4ACAD;
+   }
+   .nash {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-top: 23px;
+  }
+  .nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+  }
+  .gorod {
+    font-size: 14px;
+    text-align: center;
+    color: #A4ACAD;
+    margin-left: 22px;
+  }
+  .fa-search {
+    padding-left: 0px;
+    margin-top: 5px;
+    font-size: 26px;
+  }
+  .nav ul li a {
+    font-size: 15px;
+    text-align: center;
+    color: #FF9846;
+    padding: 0 10px;
+  }
+  .container-fluid{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+/* ===============================================index ======================================= */
+.index_slide_top {
+  margin-top: 30px;
+  position: relative;
+}
+
+.carousel-item .carousel-caption {
+  position: absolute;
+  right: 2% !important;
+  left: 45% !important;
+  top: 5%;
+  text-align: end;
+}
+
+.carousel-item .carousel-caption h5 {
+  font-weight: 500;
+  font-size: 28px;
+  color: #000000;
+  font-style: italic;
+}
+
+.carousel-item .carousel-caption p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #FF9846;
+}
+
+.carousel-item .carousel-caption span a{
+  display: block;
+  margin-top: 70px;
+  font-weight: 700;
+font-size: 24px;
+color: #000000 !important;
+text-decoration: line-through !important;
+}
+.carousel-item .carousel-caption h6{
+  font-weight: 700;
+font-size: 34px;
+color: #000000;
+}
+.carousel-item .carousel-caption button{
+  font-weight: 500;
+  font-size: 24px;
+  color: #F2F2F2;
+  border: none;
+  background: #F46D40;
+  border-radius: 5px;
+  padding: 10px 100px;
+  margin-top: 130px;
+  margin-right: 20px;
+
+}
+.carousel-indicators [data-bs-target]{
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #FF9846;
+  border-radius: 50%;
+
+}
+.carousel-indicators{
+  position: absolute;
+  bottom: -10%;
+}
+
+/* ===================================assarti */
+.assarti_div{
+  width: 80%;
+  margin: auto;
+  padding: 80px 0; 
+}
+ .pos{
+   position: relative;
+ }
+.assarti img{
+  width: 100%;
+  height: 100%;
+  padding-top: 25px;
+}
+.assarti h2{
+  position:absolute;
+  bottom:0;
+  left: 30px;
+  font-weight: 500;
+font-size: 24px;
+color: #FFFFFF;
+}
+
+
+/* ============================================slide_novinki=================== */
+
+.slide_novinki{
+  width: 80%;
+  margin: auto;
+}
+.slide_novinki .nav-item .nav-link{
+border: none;
+background: transparent;
+color: #A4ACAD;
+border: none;
+}
+
+.nav-tabs .nav-link.active{
+  color: #000;
+  border-bottom: 1px solid gray;
+
+}
+
+/* ======================================================================== */
+.slide_card {
+  width: 100%;
+  background: #FFFFFF;
+  text-align: start;
+  padding: 20px;
+  margin: 30px 0;
+}
+.slide_card h3{
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  padding-top: 30px;
+}
+.slide_card p{
+  font-weight: 400;
+  font-size: 18px;
+  color: #A4ACAD;
+  padding-top: 30px;
+}
+.slide_card .card_s{
+  border-top: 1px solid gray;
+  padding: 11px 0;
+
+}
+.slide_card .card_s span{
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+
+}
+.slide_card .card_s button{
+  font-weight: 500;
+  font-size: 24px;
+  color: #F2F2F2;
+  background: #F46D40;
+  border-radius: 5px;
+  padding: 5px 42px;
+  border: none;
+}
+
+/* ==================================================== */
+
+.carousel-control-next, .carousel-control-prev{
+  width: 5%;
+  height: 10%;
+  background-color: #000;
+ border-radius: 50%;
+  top: 45%;
+}
+.carousel-control-next{
+  right: -12%;
+}
+.carousel-control-prev{
+  left: -12%;
+}
+
+
+
+
+
+
+/* =====================otsev====================== */
+
+.otz_d{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.otzev h3{
+  font-weight: 500;
+font-size: 24px;
+color: #111111;
+}
+.otzev a{
+  font-weight: 400;
+  font-size: 18px;
+  color: #F2F2F2;
+  background: #111111;
+  border-radius: 5px;
+  padding: 7px 17px;
+}
+.roz{
+  width:20%;
+  padding: 10px;
+}
+.roz h4{
+  font-weight: 500;
+  font-size: 24px;
+  color: #111111;
+}
+.roz h5{
+  font-weight: 500;
+  font-size: 18px;
+  color: #A4ACAD;
+}
+.otz_1{
+  margin-top: 20px;
+}
+.otz_1 p{
+  width: 70%;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  padding: 20px 0 10px 10px;
+}
+
+
+/* =============================================== set ======================================= */
+
+/* ================================ footer ==================================== */
+.hr{
+  width: 96%;
+  height: 2px !important;
+  margin: auto;
+  background-color: #585d5e;
+  color: #585d5e;
+  margin-top: 20px;
+  
+}
+footer ul li a{
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  transition: 500ms;
+}
+footer ul li a:hover{
+  color: #ff9846;
+}
+footer .footerUL li{
+  margin-bottom: 20px;
+}
+footer .footerUL p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #A4ACAD;
+}
+.numberFooter{
+  font-weight: 400;
+  font-size: 18px;
+  color: #A4ACAD;
+}
+.mtFooter{
+  margin-top: 30px;
+}
+footer .FooterULlink{
+  display: flex;
+  justify-content: space-around;
+}
+.FooterBLeft{
+  border-left: 2px solid #A4ACAD;
+}
+.row{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+/* =================================== pizza ======================= */
+.PizzaDEV{
+  width: 100%;
+  background: white;
+  margin-top: 90px;
+}
+.PizzaDEV .carousel-item img{
+  width: 100%;
+}
+.PizzaDEV .carousel-item h2,
+.PizzaDEV .carousel-item p,
+.PizzaDEV .carousel-item h3,
+.PizzaDEV .carousel-item h5,
+.PizzaDEV .carousel-item form{
+  text-align: start;
+}
+
+.PizzaDEV .carousel-item h2{
+  font-size: 48px;
+  font-weight: 500;
+  color: #000000;
+  margin-top: 20px;
+}
+.PizzaDEV .carousel-item .kg{
+font-weight: 300;
+font-size: 18px;
+color: #FF9846;
+margin-bottom: 29px;
+}
+
+.PizzaDEV .carousel-item h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+ }
+.PizzaDEV .carousel-item h3 span {
+  font-weight: 800;
+  font-size: 26px;
+  color: #000000;
+ }
+  .fa-plus{
+  padding: 15px 18px;
+  border-radius: 50%;
+  background-color: #ff9846;
+  color: white;
+  cursor: pointer;
+ }
+ #carouselExampleFade .carousel-inner img{
+   margin: auto;
+ }
+ .gg{
+   font-size: 24px;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 20px;
+ }
+.span{
+  font-weight: 700;
+font-size: 24px;
+color: #000000;
+}
